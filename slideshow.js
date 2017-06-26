@@ -2,9 +2,9 @@
 <html>
 <body>
 
-<button onclick="document.getElementById('demo').innerHTML=Date()"Beautiful Photographs"</button>
+<button onclick="document.getElementById('demo').innerHTML=Date()">Beautiful Photographs </button>
 
-<p id="demo"></p>
+<p id="piano.jpg"> </p>
 
 </body>
 </html>
