@@ -2,7 +2,11 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> * {box-sizing:border-box}
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {box-sizing:border-box}
+  .mySlides {display:none}
+  
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -10,9 +14,7 @@
   margin: auto;
 }
 
-.mySlides {
-    display: none;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -94,7 +96,7 @@
   to {opacity: 1}
 }
 
-    
+    </style>    
  </head>
 <body>
 <body style= "background-color:white;">
@@ -139,7 +141,7 @@
 </div>
 
 
-
+<script>
   var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -167,6 +169,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
+  </script>
   </body>
 </html>
